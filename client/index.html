@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Client-side Rendering Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <h1>CSR Demo</h1>
+      <nav>
+        <a href="/" data-link>Home</a>
+        <a href="/about" data-link>About</a>
+        <a href="/posts" data-link>Posts</a>
+        <a href="/contact" data-link>Contact</a>
+      </nav>
+    </header>
+
+    <main id="app" role="main"></main>
+
+    <footer>
+      <small>Client-side rendering demo • Simple SPA</small>
+    </footer>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
